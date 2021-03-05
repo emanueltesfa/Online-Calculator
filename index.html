@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="stylesheet.css" rel="stylesheet">
+<script src="script.js" ></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<div id="header">
+    <h2>Statistical Calculator</h2>
+</div>
+<br>
+    <br>
+    <br>
+    <div id="container">
+        <p id="userPrompt">In input section please separate by spaces and have more than 4 values</p>
+
+        <p>
+        <label for="input"><span id="userInput">Input Numbers: </span></label>
+            <textarea id="input" name="input" rows="2" cols="20" required></textarea>
+    </p>
+
+    <form id="form" onSubmit="return performStatistics();">
+                <!--
+                <br><br> Max:<input type="text" id="max" name="max" readonly>
+                <br><br> Min:<input type="text" id="min" name="min" readonly>
+                <br><br> Median:<input type="text" id="med" name="med" readonly>
+                -->
+
+                <p>
+                    <label for="sum">Sum: </label>
+                    <input type="text" id="sum" readonly>
+                </p>
+
+                <p>
+                    <label for="mean">Mean: </label>
+                    <input type="text" id="mean" readonly>
+                </p>
+
+                <p>
+                    <label for="median">Median: </label>
+                    <input type="text" id="median" readonly>
+                </p>
+
+                <p>
+                    <label for="mode">Mode: </label>
+                    <input type="text" id="mode" readonly>
+                </p>
+
+                <p>
+                    <label for="max">Maximum: </label>
+                    <input type="text" id="max" readonly>
+                </p>
+
+                <p>
+                    <label for="min">Minimum: </label>
+                    <input type="text" id="min" readonly>
+                </p>
+
+                <p>
+                    <label for="stdDev">Standard Deviation: </label>
+                    <input type="text" id="stdDev" readonly>
+                </p>
+
+                <p>
+                    <label for="variance">Variance: </label>
+                    <input type="text" id="variance" readonly>
+                </p>
+
+                <p>
+                    <input type="submit">
+                    <input type="reset">
+                </p>
+
+
+            </form>
+
+    <h3>Links</h3>
+    <p>
+        <a href="../index.html">ePortfolio</a>
+    </p>
+</div>
+
+</body>
+</html>
