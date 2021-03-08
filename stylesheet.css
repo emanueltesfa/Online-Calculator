@@ -12,6 +12,10 @@
     padding: 1px;
     fill: lightgray;
 }
+#headerWord{
+    position: fixed;
+    left: 41%;
+}
 
 #userInput{
 font-weight: bolder;
